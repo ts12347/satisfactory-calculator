@@ -1,10 +1,9 @@
 # Satisfactory Calculator
 
-This repository provides a calculator for managing your resources in Satisfactory.
-
 ## Download
-You can download the main script from the following link:
-[Download satisfactory_calculator.py](https://example.com/path/to/satisfactory_calculator.py)
 
-## Usage
-Simply run the script and follow the on-screen instructions to manage your resources effectively.
+You can download the script from the following link:
+
+[Download satisfactory_calculator.py](https://github.com/ts12347/satisfactory-calculator/raw/main/satisfactory_calculator.py) 
+
+Last updated on 2026-02-20 20:04:52 UTC
