@@ -3,11 +3,11 @@ from urllib.parse import urljoin
 
 class SatisfactoryCalculator:
     """
-    Client to interact with satisfactorycalculator.com
+    Client to interact with satisfactory-calculator.com
     """
     
     def __init__(self):
-        self.base_url = "https://satisfactorycalculator.com"
+        self.base_url = "https://satisfactory-calculator.com"
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
@@ -34,7 +34,7 @@ class SatisfactoryCalculator:
 
 if __name__ == "__main__":
     calculator = SatisfactoryCalculator()
-    print("Connecting to satisfactorycalculator.com...")
+    print("Connecting to satisfactory-calculator.com...")
     home_data = calculator.fetch_home()
     if home_data:
         print("✓ Successfully connected!")
